@@ -88,5 +88,6 @@ public class CreateBugTest {
         } finally {
             driver.quit();
         }
+
     }
 }
