@@ -49,7 +49,7 @@ public class AuthorizationWrongPassTest {
             webElement.click();
 
             //Check error message
-            List<WebElement> webElements = driver.findElements(By.xpath(".//*[@id='login-error']/span[contains(text(), 'Неверный адрес')]"));
+            List<WebElement> webElements = driver.findElements(By.xpath(".//*[@id='login-error']/span[contains(text(), 'Неверный адрес электронной почты и/или пароль.')]"));
             if (webElements.size() > 0) {
                 System.out.println("Test success");
             } else {

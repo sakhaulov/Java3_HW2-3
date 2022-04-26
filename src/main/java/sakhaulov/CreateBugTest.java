@@ -78,7 +78,7 @@ public class CreateBugTest {
             webElement.click();
 
             //Check fo pop-up
-            List<WebElement> webElements = driver.findElements(By.cssSelector(".css-s2ap2z"));
+            List<WebElement> webElements = driver.findElements(By.cssSelector(".css-1do2z69"));
             if (webElements.size() > 0) {
                 System.out.println("Test success");
             } else {
